@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+  
+ li {
+    display: inline-block;
+}
+
+
+  
+li a {
+    
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+body {
+    background: url(../images/stars.jpg);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.fa-icon {
+    color: #301934;
+}
+
+
+.form {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.form-control-msg {
+    margin-top: 0;
+    padding-bottom: 40px;
+    padding-left: 10px;
+      /* float:left; */
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    border: solid 2px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-control {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    border: solid 2px;
+    background-color: #333;
+}
+
+.btn {
+    padding-top: 10px;
+    padding-right: 40px;
+    color: #fff;
+    background: #000058;
+    float: left;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px #00000087;
+    margin: 10px 0;
+    width: 10%;
+}
+
+
+hr {
+    height: 1px;
+    background-color: #fff;
+    padding-top: 2px;
+    width: auto;
+}
+
+
+h1 {
+    padding-top: 25px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+main p {
+    width: auto;
+    padding-left: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+hr {
+    margin-top: 10px;
+    width: auto;
+    background-color: b#fff;
+}

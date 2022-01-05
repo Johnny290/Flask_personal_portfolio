@@ -1,0 +1,46 @@
+<head>
+
+    {% block head%}
+        {% include "_head.jinja" %}
+    {% endblock %}
+
+</head>
+
+<header>
+
+    {% include "_nav.jinja" %}
+
+</header>
+
+<main class="section-container">
+    {% block main %}
+
+        <h1 class="h2">02 : About me</h1>
+
+        <h3>Few words about me </h3>
+            <p>I'm Czech programmer, working mainly in C++ & Python, not so often in Java.
+            <br>
+                I do know a little bit about front-end, but my main interest is definitely the back-end.
+            </p>
+        <hr>
+        <h3>Pár slov o mě </h3>
+            <p>Jsem český programátor, pracuji prevážně v C++ a Pythonu, obcaš v Javě.
+            <br>
+                Co se front-endu týče tak základy by tam byly avšak nic přeborného, mým hlavním zájmem je určitě back-end.
+            </p>
+            <hr>
+        <h3>My projects / Dosavadní projekty</h3>
+            <p>
+            I was doing mainly openCV, a few games, sorting algorithms, document scanner, plate number scanner, and a bit of machine learning and deep learning.
+            <br> 
+            Zatím jsem se věnoval převažně openCV, nějaké hry, třidící algoritmy, dokument skener, skener poznavacích značek, a trochu toho machine learningu a deep learningu.
+            </p>
+
+    {% endblock %}
+</main>
+
+<footer>
+    {% include "_footer.jinja" %}
+</footer>
+
+</body>
