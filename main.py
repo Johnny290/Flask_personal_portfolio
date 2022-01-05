@@ -1,6 +1,5 @@
 from flask import Flask, render_template, url_for, redirect, request, flash
 from forms import ContactForm
-import smtplib
 from flask_mail import Message, Mail
 
 
